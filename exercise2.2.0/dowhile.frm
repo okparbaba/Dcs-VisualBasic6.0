@@ -1,0 +1,24 @@
+VERSION 5.00
+Begin VB.Form Form1 
+   Caption         =   "Form1"
+   ClientHeight    =   3015
+   ClientLeft      =   120
+   ClientTop       =   465
+   ClientWidth     =   4560
+   LinkTopic       =   "Form1"
+   ScaleHeight     =   3015
+   ScaleWidth      =   4560
+   StartUpPosition =   3  'Windows Default
+End
+Attribute VB_Name = "Form1"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Private Sub Form_Load()
+    n = 1
+    Do While n <= 5
+        MsgBox n
+        n = n + 1
+    Loop
+End Sub
