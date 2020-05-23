@@ -1,6 +1,6 @@
 VERSION 5.00
 Begin VB.Form frmListBox 
-   Caption         =   "Form1"
+   Caption         =   "ListBoxes"
    ClientHeight    =   3435
    ClientLeft      =   120
    ClientTop       =   465
